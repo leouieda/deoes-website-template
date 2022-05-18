@@ -1,10 +1,65 @@
 /* Controls the style of page elements */
 
-.banner {
-  background-size: cover;
+section {
+  padding-top: 5rem;
 }
 
-.banner-text {
-  padding: 12rem 0;
-  color: #ffffff;
+main {
+  max-width: 850px !important;
+}
+
+img {
+  width: 100%;
+}
+
+.headshot {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  max-width: 200px;
+}
+
+.navbar {
+  background-color: var(--liv-blue) !important;
+}
+
+footer {
+  background-color: var(--liv-blue);
+  color: #dddddd;
+  font-size: 1rem;
+  padding: 5rem 0;
+  margin-top: 10rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--liv-blue);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--liv-blue);
+}
+
+.description {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--liv-yellow);
+}
+
+footer img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+:root {
+  --liv-blue: #02185a;
+  --liv-green: #007b8a;
+  --liv-yellow: #a87b26;
+  --liv-dark: #1a1a1a;
+  --bs-body-font-size: 1.1rem;
 }

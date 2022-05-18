@@ -26,79 +26,111 @@
   <header>
     <!-- Navigation menu -->
     <!-- ------------------------------------------------------------------ -->
-    <nav class="navbar navbar-expand-lg navbar-dark" aria-labelledby="primary-navigation">
-      <div class="container align-middle">
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg sticky-top" aria-labelledby="primary-navigation">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse align-middle" id="navbarNav">
-        <div class="navbar-collapse align-middle" id="navbarNav">
-          <ul class="navbar-nav ">
-              <!-- Add menu items here (each one is a <li>...</li> element) -->
-              <li class="nav-item">
-               <a href="#about">About</a>
-              </li>
-              <li class="nav-item">
-               <a href="#publications">Publications</a>
-              </li>
-              <li class="nav-item">
-               <a href="#teaching">Teaching</a>
-              </li>
-              <li class="nav-item">
-               <a href="#outreach">Outreach</a>
-              </li>
-              <li class="nav-item">
-               <a href="#contact">Contact</a>
-              </li>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- Add menu items here (each one is a <li>...</li> element) -->
+            <li class="nav-item">
+             <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#teaching">Teaching</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#outreach">Outreach</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- ------------------------------------------------------------------ -->
-
-
-    <!-- Banner image and text at the top of the page -->
-    <!-- ------------------------------------------------------------------ -->
-    <div class="banner" style="background-image: url(assets/banner.jpg);">
-      <section class="container text-center banner-text">
-          <h1 class="display-3">
-            Dr Leonardo Uieda
-          </h1>
-          <p class="mt-4 fs-4">
-            Lecturer in Geophysics
-          </p>
-      </section>
-    </div>
   </header>
 
   <!-- Main content of the page (add text, info, etc here) -->
   <!-- --------------------------------------------------00---------------- -->
-  <main>
-    <section class="container">
-       Main body.
+  <main class="container">
 
-       <h2 id="about">About</h2>
-       <h2 id="publications">Latest publications</h2>
-       <h2 id="teaching">Teaching resources</h2>
-       <h2 id="outreach">Outreach</h2>
-       <h2 id="contact">Contact</h2>
+<section>
+<img class="headshot" src="assets/headshot.jpg">
+<h1>Dr Leonardo Uieda</h1>
+<p class="description">
+Lecturer in Geophysics
+</p>
+</section>
+
+<section>
+<h2 id="about">About</h2>
+<p>
+I'm a geophysicist specializing in mathematical and computational methods for
+determining the inner structure of the Earth from physical observations, like
+disturbances in the Earth's gravity and magnetic fields. I work on a range of
+open-source software projects in Python and C, including Fatiando a Terra,
+Tesseroids, and PyGMT. I'm an advocate for openness in the scientific process
+and the adoption of best practices in computational research.
+</p>
+<p>
+You can find out more about me online through the Computer-Oriented Geoscience Lab and my personal website.
+</p>
+</section>
 
 
-    </section>
+
+<section>
+<h2 id="publications">Latest publications</h2>
+</section>
+
+<section>
+<h2 id="teaching">Teaching resources</h2>
+<p>
+My teaching covers several aspects of the Earth Sciences: remote sensing,
+gravimetry, geodynamics, programming. I make extensive use of computational
+tools, simulations, and exploration of real-world datasets throughout my
+teaching to prepare students with the quantitative skills they'll need to stand
+out in a modern Earth Science career.
+</p>
+</section>
+
+<section>
+<h2 id="outreach">Outreach</h2>
+</section>
+
+
+<section>
+<h2 id="contact">Contact</h2>
+</section>
+
+
+
+
+
+</section>
+
   </main>
-  <!-- --------------------------------------------------00---------------- -->
 
   <footer>
     <div class="container">
-      <p>
-       Department of Earth, Ocean and Ecological Sciences, School of Environmental Sciences, University of Liverpool
-      </p>
-      <p>
-       Jane Herdman Building, 4 Brownlow Street, Liverpool, L69 3GP, United Kingdom
-      </p>
+      <div class="row">
+        <div class="col-md-10">
+          <p>
+           Department of Earth, Ocean and Ecological Sciences, School of Environmental Sciences, University of Liverpool
+          </p>
+          <p>
+           Jane Herdman Building, 4 Brownlow Street, Liverpool, L69 3GP, United Kingdom
+          </p>
+        </div>
+        <div class="col-md-2">
+          <a href="https://www.liverpool.ac.uk/earth-ocean-and-ecological-sciences/"><img src="assets/university-of-liverpool-white.png" alt="University of Liverpool"></a>
+        </div>
+      </div>
     </div>
   </footer>
 
